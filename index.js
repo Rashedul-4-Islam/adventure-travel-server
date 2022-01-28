@@ -47,7 +47,7 @@ client.connect(err => {
     });
 
     // insert user order data
-    app.post("/products",(req,res)=>{
+    app.post("/totalBlogss",(req,res)=>{
       blogCollection.insertOne(req.body).then((result)=>{
            res.send(result);
       })
